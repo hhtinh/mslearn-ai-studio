@@ -56,7 +56,7 @@ def main():
             rag_params = {
                 "data_sources": [
                     {
-                        # he following params are used to search the index
+                        # The following params are used to search the index
                         "type": "azure_search",
                         "parameters": {
                             "endpoint": search_url,
@@ -72,6 +72,7 @@ def main():
                                 "deployment_name": embedding_model,
                             },
                         }
+
                     }
                 ],
             }
